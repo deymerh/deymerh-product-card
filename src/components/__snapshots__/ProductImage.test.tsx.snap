@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in <ProductImage /> should to show the component correctly with the image 1`] = `
+<div
+  className="productCard undefined"
+>
+  <img
+    alt="Coffe Mug"
+    className="productImg
+            undefined"
+    src="./coffee-mug.png"
+  />
+</div>
+`;
+
+exports[`Test in <ProductImage /> should to show the component correctly without the image 1`] = `
+<div
+  className="productCard undefined"
+>
+  <img
+    alt="Coffe Mug"
+    className="productImg
+            undefined"
+    src="https://deymerh.co/profile.jpg"
+  />
+</div>
+`;
